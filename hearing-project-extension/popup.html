@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>🎵 SafeSound</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 15px;
+        width: 300px;
+        background: #f4f8fb;
+      }
+      h2 {
+        margin-top: 0;
+        color: #2c3e50;
+      }
+      #volumeLog {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      #volumeLog li {
+        padding: 6px;
+        margin-bottom: 6px;
+        background: #fff;
+        border-left: 4px solid #3498db;
+        border-radius: 6px;
+        font-size: 13px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🎵 SafeSound</h2>
+    <p>Keeping your ears safe from loud sounds.</p>
+    <h3>Activity Log</h3>
+    <ul id="volumeLog"></ul>
+  </body>
+  <script src="popup.js"></script>
+</html>
